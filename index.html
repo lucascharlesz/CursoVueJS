@@ -28,7 +28,11 @@
 		      <p class="subtitle">
 		        My first website with <strong>Bulma</strong>!
 		      </p>
-		      <message message-title="ALERT!">PLMDDS</message>
+		      <message message_title="ALERT!">PLMDDS</message>
+		      <modal ref="alert_modal">PLMDDS</modal>
+		      <div class="buttons has-addons is-right">
+						<a class="button is-primary is-outlined" @click="toggleModal">Show Modal!</a>
+					</div>
 		    </div>
   		</section>
 		</div>
